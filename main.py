@@ -11,7 +11,7 @@ import settings
 #load_dotenv()
 
 # python -m streamlit run main.py
-st.title("📝석리송쌤 복붙 GPT(테디노트 이경록 대표님 코드 기반)")
+st.title("📝 나의 첫번째 GPT")
 
 config = settings.load_config()
 if "api_key" in config:
